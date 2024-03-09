@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Chin';
+  src: url('../../assets/font/go3v2.ttf') format('truetype');
+}
+ion-content {
+  --background: url('https://i.pinimg.com/564x/a8/5a/ad/a85aad769616f03d1ad6be4457aa0afb.jpg') repeat;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;
+}
+ion-content.background-content {
+  --background: url('https://i.pinimg.com/564x/a8/5a/ad/a85aad769616f03d1ad6be4457aa0afb.jpg') repeat;
+}
+.Buscar{
+  font-family:Chin;
+}
+.info{
+  font-family:Chin;
+}
+ion-button{
+  --background: #C70039;
+  font-family:Chin;
+  font-size: 20px;
+  color: #FAEAB1;
+}
+ion-toolbar{
+  font-family:Chin;
+  --background: #C05555;
+  --color: #FFC85C;
+  text-align: center;
+}
+ion-card.poke {
+  background-color: rgba(243, 233, 159, 0.7); /* 70% de opacidad */
+}
+ion-item{
+  --background: #BFCCB5;
+  --color: #7C96AB;
+  text-align: center;
+}
+ion-card.imagen {
+  background-color: rgba(243, 249, 177, 0.7); /* 70% de opacidad */
+  text-align: center;
+
+}
+.info{
+  font-size: 30px;
+  color: #C70039;
+}
